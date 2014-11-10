@@ -53,5 +53,7 @@ Contributing
 
 License and Authors
 -------------------
+The GNU General Public License version 2 (GPLv2)
+
 Authors: vohedge
 
