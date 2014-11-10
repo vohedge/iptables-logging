@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: iptables-logging-cookbook
+# Cookbook Name:: iptables-logging
 # Recipe:: default
 #
 # Copyright 2014, Noah Kobayashi

@@ -1,4 +1,4 @@
-iptables-logging-cookbook Cookbook
+iptables-logging Cookbook
 ==================================
 This cookbook configures iptables logging.
 
@@ -10,7 +10,7 @@ Ubuntu (tested at 14.04x64)
 Attributes
 ----------
 
-#### iptables-logging-cookbook::default
+#### iptables-logging::default
 <table>
   <tr>
     <th>Key</th>
@@ -28,15 +28,15 @@ Attributes
 
 Usage
 -----
-#### iptables-logging-cookbook::default
+#### iptables-logging::default
 
-Just include `iptables-logging-cookbook` in your node's `run_list`:
+Just include `iptables-logging` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[iptables-logging-cookbook]"
+    "recipe[iptables-logging]"
   ]
 }
 ```
